@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A7A1CBC11F8510D300A43DF8 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A1CBBF1F85103100A43DF8 /* RxCocoa.framework */; };
+		A7A1CBC21F8510D400A43DF8 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A1CBBE1F85102700A43DF8 /* RxSwift.framework */; };
 		DAE432571EFA10390025C54B /* RxSKPaymentTransactionObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE4324E1EFA10390025C54B /* RxSKPaymentTransactionObserver.swift */; };
 		DAE432581EFA10390025C54B /* RxStoreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DAE4324F1EFA10390025C54B /* RxStoreKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DAE432591EFA10390025C54B /* SKPaymentQueue+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE432501EFA10390025C54B /* SKPaymentQueue+Rx.swift */; };
@@ -14,7 +16,6 @@
 		DAE4325B1EFA10390025C54B /* SKProductsRequestDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE432521EFA10390025C54B /* SKProductsRequestDelegateProxy.swift */; };
 		DAE432751EFA13D90025C54B /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE432741EFA13D90025C54B /* Tests.swift */; };
 		DAE432771EFA13D90025C54B /* RxStoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAE432261EFA02FC0025C54B /* RxStoreKit.framework */; };
-		E20EE786B73622AFB8D9E972 /* Pods_RxStoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1012B5A83468CA630D1F4F1 /* Pods_RxStoreKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,11 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0509142AF4620A75035951E0 /* Pods-RxStoreKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxStoreKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxStoreKit/Pods-RxStoreKit.debug.xcconfig"; sourceTree = "<group>"; };
-		3A2BBEE2898F1BBB4BD00AE2 /* Pods_RxStoreKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxStoreKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B1012B5A83468CA630D1F4F1 /* Pods_RxStoreKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxStoreKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9A85FB6C707F760F3EF0D2D /* Pods-RxStoreKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxStoreKitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxStoreKitTests/Pods-RxStoreKitTests.debug.xcconfig"; sourceTree = "<group>"; };
-		CAA8A880D2804FD12EE26E0F /* Pods-RxStoreKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxStoreKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxStoreKit/Pods-RxStoreKit.release.xcconfig"; sourceTree = "<group>"; };
+		A7A1CBBE1F85102700A43DF8 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		A7A1CBBF1F85103100A43DF8 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		DAE432261EFA02FC0025C54B /* RxStoreKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxStoreKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAE4324D1EFA10390025C54B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAE4324E1EFA10390025C54B /* RxSKPaymentTransactionObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxSKPaymentTransactionObserver.swift; sourceTree = "<group>"; };
@@ -43,7 +41,6 @@
 		DAE432721EFA13D80025C54B /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAE432741EFA13D90025C54B /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		DAE432761EFA13D90025C54B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F2E02EB70C35B3E91D2926EF /* Pods-RxStoreKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxStoreKitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxStoreKitTests/Pods-RxStoreKitTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +48,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E20EE786B73622AFB8D9E972 /* Pods_RxStoreKit.framework in Frameworks */,
+				A7A1CBC11F8510D300A43DF8 /* RxCocoa.framework in Frameworks */,
+				A7A1CBC21F8510D400A43DF8 /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,22 +64,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7A88561BAF1573FC84CCE282 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				0509142AF4620A75035951E0 /* Pods-RxStoreKit.debug.xcconfig */,
-				CAA8A880D2804FD12EE26E0F /* Pods-RxStoreKit.release.xcconfig */,
-				C9A85FB6C707F760F3EF0D2D /* Pods-RxStoreKitTests.debug.xcconfig */,
-				F2E02EB70C35B3E91D2926EF /* Pods-RxStoreKitTests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		AE5C3E73D84E71A44A5A7ABE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B1012B5A83468CA630D1F4F1 /* Pods_RxStoreKit.framework */,
-				3A2BBEE2898F1BBB4BD00AE2 /* Pods_RxStoreKitTests.framework */,
+				A7A1CBBF1F85103100A43DF8 /* RxCocoa.framework */,
+				A7A1CBBE1F85102700A43DF8 /* RxSwift.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -92,7 +79,6 @@
 				DAE4324C1EFA10390025C54B /* Sources */,
 				DAE432731EFA13D90025C54B /* Tests */,
 				DAE432271EFA02FC0025C54B /* Products */,
-				7A88561BAF1573FC84CCE282 /* Pods */,
 				AE5C3E73D84E71A44A5A7ABE /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -146,12 +132,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DAE4323A1EFA02FD0025C54B /* Build configuration list for PBXNativeTarget "RxStoreKit" */;
 			buildPhases = (
-				F795DC4C926C42B585C12E6E /* [CP] Check Pods Manifest.lock */,
 				DAE432211EFA02FC0025C54B /* Sources */,
 				DAE432221EFA02FC0025C54B /* Frameworks */,
 				DAE432231EFA02FC0025C54B /* Headers */,
 				DAE432241EFA02FC0025C54B /* Resources */,
-				44EA8191CCC844B846B482D2 /* [CP] Copy Pods Resources */,
+				A7A1CBC01F85104A00A43DF8 /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -237,35 +222,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		44EA8191CCC844B846B482D2 /* [CP] Copy Pods Resources */ = {
+		A7A1CBC01F85104A00A43DF8 /* Carthage */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = Carthage;
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxStoreKit/Pods-RxStoreKit-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F795DC4C926C42B585C12E6E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -403,7 +374,6 @@
 		};
 		DAE4323B1EFA02FD0025C54B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0509142AF4620A75035951E0 /* Pods-RxStoreKit.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -411,6 +381,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -424,7 +398,6 @@
 		};
 		DAE4323C1EFA02FD0025C54B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CAA8A880D2804FD12EE26E0F /* Pods-RxStoreKit.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -432,6 +405,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
